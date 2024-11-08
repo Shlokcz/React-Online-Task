@@ -1,0 +1,42 @@
+.supplierDetails{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.supplier{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0efff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 12px;
+    /* box-shadow: 0px 1px 4px 0px (#101828); */
+    box-shadow: 0px 5px 5px rgb(223, 223, 223);
+    padding: 20px 40px;
+}
+
+.supplierRow1, .supplierRow2{
+    width: 50%;
+}
+
+.supplierRow1 input , .supplierRow2 input{
+    width: 90%;
+}
+
+.oneItem{
+    padding: 5px 0px;
+}
+
+.oneItem input{
+    padding: 8px;    
+    border: none;
+    border-radius: 4px;
+}
+
+.smallDesc{
+    font-size: 10px;
+    margin: 0;
+    font-weight: 200;
+    color: rgb(134, 134, 134);
+}

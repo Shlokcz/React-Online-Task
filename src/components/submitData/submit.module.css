@@ -1,0 +1,21 @@
+.submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit h1{
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.submit button{
+    color: white;
+    background-color: #007AFF;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
